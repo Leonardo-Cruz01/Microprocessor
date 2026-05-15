@@ -1,2 +1,4 @@
 # Microprocessor
-8-bit RISC microprocessor
+8-bit RISC microprocessor  
+
+This microprocessor computes 8-bit operations through a program with 21 instructions. There are 3 states: Instruction Fetch (IF), Execute (EX), and Register Write Back (RWB). IF grabs the next instruction within the program, EX runs the instruction through an ALU with 15 different operations, and RWB computes the next program address aswell as stores the ALU result into a register file that contains 16 8-bit values. The clock in the microprocessor can be controlled by a button on the FPGA or it can use the internal clock of the FPGA to run through the program automatically. The clock can be toggled between the two using a switch. 3 other switches are used to control was is shown on the 7-segment display. It can display my last name, the program counter, W-Register, ALU output, and the OPCODE.
